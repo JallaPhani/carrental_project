@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Car Booking System</title>
+	<link rel="stylesheet" href="cars.css">
+</head>
+<body>
+	
+	<header>
+		<nav>
+			<ul>
+				
+				<li><a href="CAR.HTML">CARS</a></li>
+				<li><a href="LOCATION.HTML">LOCATIONS</a></li>
+				<li><a href="pay1.html">PAYMENT</a></li>
+				<li><a href="cart.html">BOOKINGS</a></li>
+				<li><a href="about.html">ABOUT-US</a></li>
+				<li><a href="dashboard.html">DASHBOARD</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+				<li><a href="logout.html">LOGOUT</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<img src="girl.jpg" style="width:100%">
+	
+		<section>
+			<h1>BOOKING</h1>
+			<form action="cars.php" method="post">
+				<label for="pickup-date">Pickup_Date:</label>
+				<input type="date" id="pickup-date" name="pickup-date" required>
+				<label for="return-date">Return_Date:</label>
+				<input type="date" id="return-date" name="return-date" required>
+				<label for="pickup-location">Pickup_Location:</label>
+				<input type="text" id="pickup-location" name="pickup-location" required>
+				<label for="return-location">Return_Location:</label>
+				<input type="text" id="return-location" name="return-location" required>
+				
+				
+			<button type="submit" class="btn-primary"> BOOKCAR </button>
+				<!--<<input type="submit" class="btn-primary" value="BOOK NOW" onclick="alert('booking Successfully')"/>
+				<a href="CAR.HTML" type="submit"  class="btn-primary" onclick="alert('SHOW AVAILABLE CARS')" >BOOK NOW</a>
+				<a href="CAR.HTML" type="submit"  class="btn-primary" onclick="alert('SHOW AVAILABLE CARS')" >BOOK NOW</a> -->
+			</form>
+		</section>
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+		
+		<section>
+			<h2>Available Cars</h2>
+			<div class="car-card">
+				<img src="kwid.jpg" alt="car 1">
+				<h3></h3>
+				<p>KWID CAR
+				  999-999CC
+				  RENT PRICE = 10,000 PER DAY
+				</p>
+				<!--<button type="submit" class="btn-primary"> BOOKCAR </button>-->
+			<a href="booking.html"  type="submit" class="btn-secondary" onclick="alert('booking Successfull')" >Book Now</a>
+	
+			</div>
+			<div class="car-card">
+				<img src="h.jpeg" alt="Car 2">
+				<h3></h3>
+				<p>TATA HARRIER 1965CC RENT PRICE=9,000 PER DAY</p>
+				<!--<a href="#" class="btn-secondary">Book Now</a>-->
+				<a href="booking.html"  type="submit" class="btn-secondary" onclick="alert('booking Successfull')" >Book Now</a>
+			</div>
+			<div class="car-card">
+				<img src="i10.jpg" alt="Car 3">
+				<h3></h3>
+				<p>GRAND i10 NIOS 1197CC RENT PRICE=7,000 PER DAY</p>
+				<!--<a href="#" class="btn-secondary">Book Now</a>-->
+				<a href="booking.html"  type="submit" class="btn-secondary" onclick="alert('booking Successfull')" >Book Now</a>
+			</div>
+			<div class="car-card">
+				<img src="NEXA.jpg" alt="Car 3">
+				<h3></h3>
+				<p>NEXA SCROSS 1462CC RENT PRICE=12,000 PER DAY</p>
+				<!--<a href="#" class="btn-secondary">Book Now</a>-->
+				<a href="booking.html"  type="submit" class="btn-secondary" onclick="alert('booking Successfull')" >Book Now</a>
+	
+			</div><div class="car-card">
+				<img src="SU.jpg" alt="Car 3">
+				<h3></h3>
+				<p> MARUTHI SWIFT 1197CC RENT PRICE=5,000 PER DAY</p>
+				<!--<a href="#" class="btn-secondary">Book Now</a>-->
+				<a href="booking.html"  type="submit" class="btn-secondary" onclick="alert('booking Successfull')" >Book NoW</a>
+			</div><div class="car-card">
+				<img src="B.webp" alt="Car 3">
+				<h3></h3>
+				<p>MARUTHI BALENO 1197CC RENT PRICE=15,000 PER DAY</p>
+				<!--<a href="#" class="btn-secondary">Book Now</a>-->
+				<a href="booking.html"  type="submit" class="btn-secondary" onclick="alert('booking Successfull')" >Book Now</a>
+		
+			</div>
+			<div class="car-card">
+				<img src="ALTO.webp" alt="Car 3">
+				<h3></h3>
+				<p>ALTO 998CC RENT PRICE=5,000 PER DAY</p>
+				<!--<a href="#" class="btn-secondary">Book Now</a>-->
+				<a href="booking.html"  type="submit" class="btn-secondary" onclick="alert('booking Successfull')" >Book Now</a>
+				
+			</div>
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Car Booking System. All rights reserved.</p>
+	</footer>
+</body>
+</html>

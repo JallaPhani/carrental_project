@@ -1,0 +1,62 @@
+.booking-history {
+    margin-top: 40px;
+  }
+  
+  .booking-history h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .booking-info {
+    display: inline-block;
+    width: 70%;
+  }
+  
+  .booking-date {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .booking-car {
+    margin-top: 10px;
+  }
+  
+  .booking-car img {
+    width: 100px;
+    height: 70px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .car-type {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .booking-location {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  
+  .booking-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .booking-actions {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+  }
+  
+  .booking-actions a {
+    font-size: 16px;
+    color: #ff0000;
+    text-decoration: none;
+  }
+  
+  .booking-actions a:hover {
+    text-decoration: underline;}
+  

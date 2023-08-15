@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - Car Rental</title>
+
+  <!-- Montserrat Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <div class="grid-container">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="menu-icon" onclick="openSidebar()">
+        <span class="material-icons-outlined">menu</span>
+      </div>
+      <div class="header-left">
+      <span class="material-icons-outlined">search</span>
+      </div>
+      <div class="header-right">
+        <span class="material-icons-outlined">notifications</span>
+        <span class="material-icons-outlined">email</span>
+        <span class="material-icons-outlined">account_circle</span>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Sidebar -->
+    <aside id="sidebar">
+      <div class="sidebar-title">
+        <div class="sidebar-brand">
+          <span class="material-icons-outlined">drive_eta</span> Car Rental
+        </div>
+        <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+      </div>
+
+      <ul class="sidebar-list">
+        <li class="sidebar-list-item">
+          <a href="#" target="_blank">
+            <span class="material-icons-outlined">dashboard</span> Dashboard
+          </a>
+        </li>
+        <li class="sidebar-list-item">
+          <a href="CAR.HTML" target="_blank">
+            <span class="material-icons-outlined">local_taxi</span> Vehicles
+          </a>
+        </li>
+        <li class="sidebar-list-item">
+          <a href="booking.html" target="_blank">
+            <span class="material-icons-outlined">event</span> Bookings
+          </a>
+        </li>
+        <li class="sidebar-list-item">
+          <a href="contact.html" target="_blank">
+            <span class="material-icons-outlined">person</span> Contact
+          </a>
+        </li>
+        <li class="sidebar-list-item">
+          <a href="paymenthi.html" target="_blank">
+            <span class="material-icons-outlined">credit_card</span> Payments
+          </a>
+        </li>
+       
+          
+        </li>
+        <li class="sidebar-list-item">
+          <a href="cars.html" target="_blank">
+            <span class="material-icons-outlined">settings</span> home
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <!-- End Sidebar -->
+
+    <!-- Main -->
+    <main class="main-container">
+      <div class="main-title">
+        <h1 class="font-weight-bold">DASHBOARD</h1>
+      </div>
+
+      <div class="main-cards">
+
+        <div class="card">
+          <div class="card-inner">
+            <a href="CAR.HTML" target="_blank">
+            <h2 class="text-primary">VEHICLES</h2>
+            <span class="material-icons-outlined text-blue">directions_car</span>
+            </a>
+          </div>
+          <span class="text-primary font-weight-bold">30</span>
+        </div>
+
+        <div class="card">
+          <div class="card-inner">
+            <a href="cart.html" target="_blank">
+            <h2 class="text-primary">BOOKINGS</h2>
+            <span class="material-icons-outlined text-orange">event</span>
+            </a>
+          </div>
+          <span class="text-primary font-weight-bold">005</span>
+        </div>
+
+        <div class="card">
+          <div class="card-inner">
+            <h2 class="text-primary">CUSTOMERS</h2>
+            <span class="material-icons-outlined text-green">person</span>
+          </div>
+          <span class="text-primary font-weight-bold">25</span>
+        </div>
+
+        <div class="card">
+          <div class="card-inner">
+            <a href="paymenthi.html" target="_blank">
+            <h2 class="text-primary">PAYMENTS</h2>
+            <span class="material-icons-outlined text-red">credit_card</span>
+            </a>
+          </div>
+          <span class="text-primary font-weight-bold">003</span>
+        </div>
+
+      </div>
+
+      <div class="charts">
+
+        <div class="charts-card">
+            <a href="CAR.HTML" target="_blank">
+          <h2 class="chart-title">Top 5 Popular Vehicles</h2>
+          <div id="bar-chart"></div>
+          </a>
+      
+       
+        
+
+        <div class="charts-card">
+            <a href="contact.html" target="_blank">
+            
+          <h2 class="chart-title">Bookings Overview</h2>
+          <div id="area-chart"></div>
+          </a>
+        </div>
+
+      </div>
+    </main>
+    <!-- End Main -->
+
+  </div>
+
+</body>
+</html>
